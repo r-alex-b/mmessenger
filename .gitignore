@@ -1,0 +1,36 @@
+# Symfony directories
+/backups/
+/bin/*
+/node_modules/
+/var/cache/*
+/var/logs/*
+/var/sessions/*
+/var/jwt/
+/vendor/
+/web/_html/
+/web/assets/
+/web/bundles/
+/web/files/
+/web/storage/*
+/web/js/routes.js
+
+
+!/bin/console
+!/bin/cs-fixer
+!/bin/prepare
+!/bin/start
+!/bin/symfony_requirements
+!/bin/update
+!/var/cache/.gitkeep
+!/var/logs/.gitkeep
+!/web/storage/.gitkeep
+
+# Configuration files
+/app/config/parameters.yml
+/package-lock.json
+
+# Other
+/var/bootstrap.php.cache
+/var/SymfonyRequirements.php
+var/sessions/
+.idea
